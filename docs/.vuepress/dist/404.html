@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Scaffolding.Coffee</title><meta name="description" content="Scaffolding.Coffee is a collection of tools and resources for developers to help them build better software.">
+    <link rel="preload" href="/assets/style-072b72f9.css" as="style"><link rel="stylesheet" href="/assets/style-072b72f9.css">
+    <link rel="modulepreload" href="/assets/app-16a237b0.js"><link rel="modulepreload" href="/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/assets/404.html-87d54bd8.js"><link rel="modulepreload" href="/assets/404.html-4535e901.js"><link rel="prefetch" href="/assets/index.html-a2e4868c.js" as="script"><link rel="prefetch" href="/assets/index.html-bef95b18.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-16a237b0.js" defer></script>
+  </body>
+</html>
