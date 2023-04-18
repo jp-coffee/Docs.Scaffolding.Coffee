@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/jp-coffee/scaffolding.coffee#readme" target="_blank" rel="noopener noreferrer">
-      <img height="200" src="./docs/assets/scaffolding.coffee.svg" alt="Scaffolding.Coffee logo">
+      <img height="200" src="./assets/scaffolding.coffee.svg" alt="Scaffolding.Coffee logo">
    </a>
 </p>
 
